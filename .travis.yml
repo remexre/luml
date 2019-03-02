@@ -19,7 +19,8 @@ script:
 - if [[ $TRAVIS_RUST_VERSION = stable ]]; then cargo doc --all; fi
 
 before_deploy:
-- /tmp/mdbook build docs -d ../target/doc
+- /tmp/mdbook build docs
+- rsync -a target/doc/ docs/book/api/
 deploy:
 - provider: pages
   skip-cleanup: true
