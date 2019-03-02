@@ -3,7 +3,7 @@ luml
 
 [![Build Status](https://travis-ci.org/remexre/luml.svg?branch=master)](https://travis-ci.org/remexre/luml) [![Dependency Status](https://deps.rs/repo/github/remexre/luml/status.svg)](https://deps.rs/repo/github/remexre/luml)
 
-An S-Expr to UML compiler.
+A UML diagram generator.
 
 License
 -------
