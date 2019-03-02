@@ -1,0 +1,6 @@
+.*
+!.gitignore
+!.travis.yml
+
+/docs/book/
+/target/
