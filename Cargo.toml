@@ -1,4 +1,9 @@
 [package]
+description = "A UML diagram generator."
+license = "Apache-2.0/MIT"
+documentation = "https://remexre.xyz/luml/"
+homepage = "https://remexre.xyz/luml/"
+repository = "https://github.com/remexre/luml"
 name = "luml"
 version = "0.1.0"
 authors = ["Nathan Ringo <remexre@gmail.com>"]
