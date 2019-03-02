@@ -5,3 +5,17 @@ authors = ["Nathan Ringo <remexre@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+lalrpop-util = "0.16.3"
+regex = "1.1.2"
+derive_more = "0.14.0"
+itertools = "0.8.0"
+structopt = "0.2.14"
+stderrlog = "0.4.1"
+
+[dependencies.libremexre]
+default-features = false
+features = ["log"]
+version = "0.1.4"
+
+[build-dependencies]
+lalrpop = "0.16.3"

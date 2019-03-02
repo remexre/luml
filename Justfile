@@ -2,7 +2,7 @@ all: check build-debug doc test
 clean:
 	cargo clean
 watch TARGET="all":
-	watchexec -cre rs,toml "just {{TARGET}}"
+	watchexec -cre lalrpop,rs,toml "just {{TARGET}}"
 
 build: build-debug build-release
 build-debug:

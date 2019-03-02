@@ -1,0 +1,12 @@
+use crate::SExpr;
+use std::sync::Arc;
+
+#[LALR]
+grammar;
+
+pub SExpr: SExpr = {
+	r"[a-zA-Z0-9_&*]+" => SExpr::Atom(Arc::from(<>)),
+	"(" <s:SExpr*> ")" => SExpr::List(<>),
+};
+
+pub SExprs = <SExpr*>;

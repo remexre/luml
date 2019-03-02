@@ -5,6 +5,8 @@ luml
 
 A UML diagram generator.
 
+The code is gross rn, it was written 3 hours before a UML homework was due.
+
 License
 -------
 
