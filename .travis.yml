@@ -21,6 +21,7 @@ script:
 before_deploy:
 - /tmp/mdbook build docs
 - rsync -a target/doc/ docs/book/api/
+- cargo run -- example.luml | dot -Tpng > docs/book/example.png
 deploy:
 - provider: pages
   skip-cleanup: true
