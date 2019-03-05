@@ -1,7 +1,7 @@
 Example
 =======
 
-```
+```text
 (interface fruit
   (fn seasonal () bool)
   (fn set_expires (int) void)
