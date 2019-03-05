@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["log_err","Logs an error, including its causes."]],"struct":[["ErrorCauseIter","An iterator over the causes of an error."],["GenericError","A wrapper for giving `ErrorKind`s causes and backtraces."]],"type":[["Result","A convenient alias for `Result`."]]});

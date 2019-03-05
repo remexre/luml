@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["catch","Runs the given closure immediately. Mostly for use as replacement for `catch` blocks, which seem to be taking a while to stabilize..."]],"macro":[["coerce","An explicit trivial cast."]],"mod":[["errors","Stuff for error-handling."]]});
